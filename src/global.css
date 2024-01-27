@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --web-regular-02: "DM Sans";
+  --text-sm-semibold: Inter;
+
+  /* font sizes */
+  --text-sm-semibold-size: 14px;
+  --font-size-base: 16px;
+  --text-xs-medium-size: 12px;
+  --font-size-13xl: 32px;
+  --font-size-lgi: 19px;
+  --font-size-7xl: 26px;
+  --font-size-29xl: 48px;
+  --font-size-10xl: 29px;
+  --font-size-19xl: 38px;
+  --font-size-lg: 18px;
+
+  /* Colors */
+  --grey-200: #e5e7eb;
+  --colors-background-bg-secondary-alt: #f9fafb;
+  --gray-200: #eaecf0;
+  --color-gray-100: #fcfcfd;
+  --grey-50: #111927;
+  --base-white: #fff;
+  --color-darkslategray-100: #475467;
+  --component-colors-utility-gray-utility-gray-700: #344054;
+  --grey-300: #d2d6db;
+  --grey-25: #6c737f;
+  --colors-text-text-quarterary-500: #667085;
+  --color-blueviolet-100: #9945ff;
+  --primary-light-primarylight-5: #731ee2;
+
+  /* Spacing */
+  --spacing-xs: 4px;
+  --radius-lg: 10px;
+  --spacing-md: 8px;
+  --radius-md: 8px;
+  --spacing-lg: 12px;
+  --radius-sm: 6px;
+  --spacing-xxs: 2px;
+  --radius-full: 9999px;
+
+  /* Gaps */
+  --gap-13xl: 32px;
+  --gap-base: 16px;
+  --gap-26xl: 45px;
+  --gap-3xl: 22px;
+  --gap-12xs: 1px;
+  --gap-sm: 14px;
+  --gap-9xs: 4px;
+  --gap-5xs: 8px;
+  --gap-xl: 20px;
+  --gap-xs: 12px;
+  --gap-7xl: 26px;
+  --gap-5xl: 24px;
+
+  /* Paddings */
+  --padding-21xl: 40px;
+  --padding-xl: 20px;
+  --padding-7xl: 26px;
+  --padding-12xs: 1px;
+  --padding-base: 16px;
+  --padding-xs: 12px;
+  --padding-5xs: 8px;
+  --padding-9xs: 4px;
+  --padding-10xs: 3px;
+  --padding-11xs: 2px;
+  --padding-4xs: 9px;
+  --padding-6xs: 7px;
+  --padding-3xs: 10px;
+  --padding-smi: 13px;
+  --padding-2xs: 11px;
+
+  /* Border radiuses */
+  --br-7xs: 6px;
+  --br-3xs: 10px;
+  --br-5xs: 8px;
+  --br-9xs: 4px;
+  --br-981xl: 1000px;
+
+  /* Effects */
+  --shadow-xs: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  --shadows-shadow-sm: 0px 1px 3px rgba(16, 24, 40, 0.1),
+    0px 1px 2px rgba(16, 24, 40, 0.06);
+}

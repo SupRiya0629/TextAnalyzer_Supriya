@@ -1,0 +1,37 @@
+/* InputTabsAndFieldsVariant.module.css */
+.inputTabsAndFieldsvariant3 {
+  text-align: center;
+}
+
+.sliderContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 60%; /* Adjust the width as needed */
+  margin: 50px auto; /* Adjust the margin as needed */
+}
+
+.slider {
+  position: relative;
+  flex: 1;
+  height: 50px;
+  background: linear-gradient(to right, #3498db, #2980b9);
+  border: 2px solid #fff;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+
+  &:hover {
+    background: linear-gradient(to right, #2980b9, #3498db);
+  }
+}
+
+.sliderText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  user-select: none;
+}

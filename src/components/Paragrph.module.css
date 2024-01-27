@@ -1,0 +1,55 @@
+/* Paragrph.module.css */
+.paragraphContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .inputSection {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .analysisResults {
+    width: 100%;
+  }
+  
+  .analysisTable {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 8px;
+    margin: 4px;
+  }
+  
+  .row:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .columnName {
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .columnValue {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .buttonContainer {
+    margin-top: 20px;
+  }
+  

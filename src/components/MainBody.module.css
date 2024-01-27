@@ -1,0 +1,78 @@
+/* MainBody.module.css */
+
+.mainBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.inputSection {
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+textarea:focus {
+  border-color: #2980b9;
+}
+
+.analysisResults {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.analysisTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.columnName,
+.columnValue {
+  border: 2px solid #3498db;
+  padding: 8px;
+}
+
+.columnName {
+  background-color: #3498db;
+  color: white;
+}
+
+.row {
+  text-align: center;
+}
+
+.columnValue {
+  border-color: #3498db;
+}
+
+.buttonContainer {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
