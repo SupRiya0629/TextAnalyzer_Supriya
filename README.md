@@ -29,7 +29,7 @@ cd TextAnalyzer_Supriya
 ```
 cd TextAnalyzer_supriya
 2.Open terminal or gitbash (Move to the directory of file)
-
+ At first Node.js must be installed in your local system to run the below commands (https://nodejs.org/).
 ``` 
 npm install
 
@@ -40,7 +40,7 @@ npm start
 
 ````
 
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3000] to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
