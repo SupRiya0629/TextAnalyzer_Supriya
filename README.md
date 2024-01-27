@@ -19,13 +19,20 @@ Before running the application, make sure you have Node.js and npm installed on 
 1. Clone the repository:
 
 
-   ```bash
+```
  git clone https://github.com/SupRiya0629/TextAnalyzer_Supriya.git
+ ```
 2.Open terminal or gitbash (Move to the directory of file)
 
-``` npm install ````
+``` 
+npm install
 
-``` npm start````
+````
+
+``` 
+npm start
+
+````
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
