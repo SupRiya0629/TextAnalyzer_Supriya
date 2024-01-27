@@ -21,7 +21,13 @@ Before running the application, make sure you have Node.js and npm installed on 
 
 ```
  git clone https://github.com/SupRiya0629/TextAnalyzer_Supriya.git
+
  ```
+
+```
+cd TextAnalyzer_Supriya
+```
+cd TextAnalyzer_supriya
 2.Open terminal or gitbash (Move to the directory of file)
 
 ``` 
